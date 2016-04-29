@@ -1,0 +1,8 @@
+﻿/**
+ * CSS para o admin do projeto atual
+ * 
+ */
+ 
+.wp-admin #wpadminbar #wp-admin-bar-site-name>.ab-item:before {
+    color: red;
+}
