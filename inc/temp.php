@@ -20,9 +20,10 @@ $config = array(
         ),
         'tools.php' => array(
             'subpages' => array(
-                'section_dummy_content' => array(
+                'sub_tools' => array(
                     'page_title'    => 'Conteúdo de Testes', 
                     'menu_title'    => 'Conteúdo de Testes', 
+                    'menu_slug'     => 'sub_tools', 
                     'capability'    => 'manage_options', 
                 ),
             ),
@@ -81,7 +82,22 @@ $config = array(
         ),
     ),
 );
+
 $admin_pages = new Boros_Admin_Pages( $config );
+
+$config2 = array(
+    'path' => BTESTS_DIR . 'admin-pages/',
+    'url' => BTESTS_URL . 'admin-pages/',
+    'pages' => array(
+        'section-extra' => array(
+            'page_title'    => 'Opções Extras', 
+            'menu_title'    => 'Opções Extras', 
+            'capability'    => 'edit_posts', 
+            'icon_url'      => 'dashicons-admin-generic',
+        ),
+    ),
+);
+$admin_pages2 = new Boros_Admin_Pages( $config2 );
 
 
 

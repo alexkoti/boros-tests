@@ -1,0 +1,20 @@
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="0">
+            <File firstVisibleLine="36" xOffset="0" scrollWidth="1088" startPos="1599" endPos="1603" selMode="0" lang="PHP" encoding="-1" filename="D:\PHP\xampp\htdocs\xampp\sites\boros\boros-2\wp-content\plugins\boros-tests\boros-tests.php" backupFilePath="" originalFileLastModifTimestamp="1464750955" />
+            <File firstVisibleLine="0" xOffset="0" scrollWidth="904" startPos="1746" endPos="1746" selMode="0" lang="PHP" encoding="-1" filename="D:\PHP\xampp\htdocs\xampp\sites\boros\boros-2\wp-content\plugins\boros-tests\inc\temp.php" backupFilePath="" originalFileLastModifTimestamp="1464924709" />
+            <File firstVisibleLine="336" xOffset="0" scrollWidth="1600" startPos="13977" endPos="13977" selMode="0" lang="PHP" encoding="-1" filename="D:\PHP\xampp\htdocs\xampp\sites\boros\boros-2\wp-content\plugins\boros\functions\class-admin-pages.php" backupFilePath="" originalFileLastModifTimestamp="1465007663" />
+            <File firstVisibleLine="276" xOffset="0" scrollWidth="2032" startPos="12473" endPos="12494" selMode="0" lang="PHP" encoding="-1" filename="D:\PHP\xampp\htdocs\xampp\sites\boros\boros-2\wp-content\plugins\boros\functions\admin-pages.php" backupFilePath="" originalFileLastModifTimestamp="1464573091">
+                <Mark line="214" />
+                <Mark line="325" />
+                <Mark line="718" />
+            </File>
+            <File firstVisibleLine="87" xOffset="0" scrollWidth="1496" startPos="0" endPos="0" selMode="0" lang="PHP" encoding="-1" filename="D:\PHP\xampp\htdocs\xampp\sites\boros\boros-2\wp-content\plugins\boros-tests\inc\admin-pages.php" backupFilePath="" originalFileLastModifTimestamp="1461903557" />
+            <File firstVisibleLine="99" xOffset="0" scrollWidth="2504" startPos="10846" endPos="10858" selMode="0" lang="PHP" encoding="-1" filename="D:\PHP\xampp\htdocs\xampp\sites\boros\boros-2\wp-content\plugins\boros\functions\form-elements.php" backupFilePath="" originalFileLastModifTimestamp="1462594432">
+                <Mark line="254" />
+            </File>
+            <File firstVisibleLine="15" xOffset="0" scrollWidth="37848" startPos="5284" endPos="5303" selMode="0" lang="PHP" encoding="-1" filename="D:\PHP\xampp\htdocs\xampp\sites\boros\boros-2\wp-content\plugins\boros\functions\debug.php" backupFilePath="" originalFileLastModifTimestamp="1462594474" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>

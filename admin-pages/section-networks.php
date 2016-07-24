@@ -1,5 +1,5 @@
 <?php
-$args = array();
+$elements = array();
 /**
  * Array de redes, escrever os nome normalmente, pois serão filtrados para criar os names
  * Decido crar loop para facilitar a adição/remoção de redes :P
@@ -24,27 +24,24 @@ foreach( $networks as $network ){
     );
 }
 
-$args[] = array(
-    'title' => 'Redes Sociais',
+$elements['header'] = array(
     'desc' => get_bloginfo('blogname') . ' - configurações dos links de redes sociais.',
     'block' => 'header',
 );
 
-$args[] = array(
-    'id' => 'network_redes',
+$elements['network_redes'] = array(
     'title' => 'Redes Sociais',
     'desc' => 'Links das contas',
     'block' => 'section',
-    'itens' => $networks_data,
+    'items' => $networks_data,
 );
 
-$args[] = array(
-    'id' => 'twitter_api',
+$elements['twitter_api'] = array(
     'title' => 'Chaves da API do Twitter',
     'desc' => '',
     'block' => 'section',
     'section' => 'redes_sociais',
-    'itens' => array(
+    'items' => array(
         array(
             'name' => 'home_feed_tt',
             'type' => 'text',
@@ -78,13 +75,12 @@ $args[] = array(
     ),
 );
 
-$args[] = array(
-    'id' => 'network_opengraph',
+$elements['network_opengraph'] = array(
     'title' => 'Opengraph e Share Options',
     'desc' => 'Meta informações de compartilhamento[facebook e redes sociais]',
     'block' => 'section',
     'section' => 'redes_sociais',
-    'itens' => array(
+    'items' => array(
         array(
             'name' => 'share_active',
             'type' => 'checkbox',
